@@ -1,4 +1,4 @@
-@media  (max-width:3000px) {
+@media  (max-width:3000px) and (min-width:470px) {
     .container {
         max-width: 100%;
        overflow: hidden;
@@ -32,7 +32,7 @@
 
 
 
-@media  (max-width:900px) and (min-width:510px)  { 
+@media  (max-width:900px) and (min-width:470px)  { 
     .header-bg {
         max-width: 100%;
         height: 950px;
@@ -70,7 +70,7 @@
 }
 }
 
-@media (max-width:900px) {
+@media (max-width:900px) and (min-width:470px) {
     .mini-logo {
         max-width: 100%;
         display: flex;
@@ -89,10 +89,11 @@
     }
 }
 
-@media (max-width:900px) {
+@media (max-width:900px) and (min-width:470px) {
     .main-section {
         height: auto;
         flex-direction: column;
+        
 
         .main-all-items {
             
@@ -101,6 +102,7 @@
             height: 1000px;
             
             .main-card-1 {
+                justify-content: center;
                 width: 75%;
                 margin: auto;
                 padding: 25px;
@@ -111,7 +113,6 @@
         .main-all-items:nth-of-type(2) {
             order: column-reverse;
             flex-direction: column;
-            
             width: 100%;
             
             height: 1000px;
@@ -126,7 +127,7 @@
   
 } //media
 
-@media (max-width:900px) {
+@media (max-width:900px) and (min-width:470px) {
 
     .mini-logos-header h2 {
         width: 50%;
@@ -156,7 +157,7 @@
     } 
 }
 
-@media (max-width:900px) and (min-width:510px) {
+@media (max-width:900px) and (min-width:470px) {
     .footer-1 {
         max-width: 100%;
         height: 600px;
@@ -197,7 +198,7 @@
     }
     }
 
-@media (max-width:900px) {
+@media (max-width:900px) and (min-width:470px) {
     footer {
         width: 100%;
         display: flex;
