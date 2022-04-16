@@ -34,28 +34,20 @@
 
 @media  (max-width:1200px) and (min-width:414px) { 
    
-
     .header-text {
         margin-top: 150px;
-        
-       
-        
+   
         }
-       
-
-       
 }
 
 
 @media (max-width:1200px) and (min-width:414px) {
-    .mini-logo {
-        
+    .mini-logo {  
         max-width: 100%;
         display: flex;
         height: auto;
         
         .all-items {
-            
             display: flex;
             flex-wrap: wrap;
                 
@@ -80,7 +72,7 @@
             height: 1000px;
             
             .main-card-1 {
-                
+                flex-wrap: wrap;
                 width: 100%;
                 
                 
@@ -207,7 +199,7 @@
     }
     .header-bg {
         width: 100%;
-        height: 1000px;
+        height: 800px;
 
         .header-text {
             margin-top: 150px;
