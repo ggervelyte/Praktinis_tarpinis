@@ -76,16 +76,16 @@
         display: flex;
         height: auto;
         
-        // .all-items {
+        .all-items {
             
-        //     display: flex;
-        //     flex-wrap: wrap;
+            display: flex;
+            flex-wrap: wrap;
                 
             
-        //     .item-1 {
-        //         padding-bottom: 45px;
-        //     }
-        // }
+            .item-1 {
+                padding-bottom: 45px;
+            }
+        }
     }
 }
 
