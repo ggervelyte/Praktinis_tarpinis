@@ -76,16 +76,16 @@
         display: flex;
         height: auto;
         
-        .all-items {
+        // .all-items {
             
-            display: flex;
-            flex-wrap: wrap;
+        //     display: flex;
+        //     flex-wrap: wrap;
                 
             
-            .item-1 {
-                padding-bottom: 45px;
-            }
-        }
+        //     .item-1 {
+        //         padding-bottom: 45px;
+        //     }
+        // }
     }
 }
 
@@ -225,7 +225,7 @@
 
 @media only screen and (max-width: 802px) {
     .container {
-        width: 70%;
+        width: 100%;
     }
     .header-bg {
         width: 100%;
@@ -252,6 +252,15 @@
                 width: 350px;
                 margin-top: 10px;
             }
+        }
+    }
+
+    .all-items {
+        display: flex;
+        flex-wrap: wrap;
+
+        .item-1 {
+            padding-bottom: 45px;
         }
     }
 
