@@ -1,4 +1,4 @@
-@media  (max-width:900px) and (min-width:414px) {
+@media  (max-width:1200px) and (min-width:414px) {
     .container {
         max-width: 100%;
        overflow: hidden;
@@ -32,10 +32,10 @@
 
 
 
-@media  (max-width:900px) and (min-width:414px)  { 
+@media  (max-width:1200px) and (min-width:414px) { 
     .header-bg {
-        max-width: 100%;
-        height: 950px;
+    max-width: 100%;
+    height: 950px;
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
@@ -45,7 +45,7 @@
         display: flex;
         padding-top: 200px;
         width: 80%;
-        align-items: flex-start;
+        align-items: center;
         flex-wrap: wrap;
 
         .form {
@@ -70,17 +70,17 @@
 }
 }
 
-@media (max-width:900px) and (min-width:414px) {
+@media (max-width:1200px) and (min-width:414px) {
     .mini-logo {
         max-width: 100%;
         display: flex;
         height: auto;
         
         .all-items {
-            max-width: 100%;
+            
             display: flex;
             flex-wrap: wrap;
-            padding: 150px ;    
+                
             
             .item-1 {
                 padding-bottom: 45px;
@@ -89,7 +89,7 @@
     }
 }
 
-@media (max-width:900px) and (min-width:414px) {
+@media (max-width:1200px) and (min-width:414px) {
     .main-section {
         height: auto;
         flex-direction: column;
@@ -127,7 +127,7 @@
   
 } //media
 
-@media (max-width:900px) and (min-width:414px) {
+@media (max-width:1200px) and (min-width:414px) {
 
     .mini-logos-header h2 {
         width: 50%;
@@ -157,7 +157,7 @@
     } 
 }
 
-@media (max-width:900px) and (min-width:414px) {
+@media (max-width:1200px) and (min-width:414px) {
     .footer-1 {
         max-width: 100%;
         height: 600px;
@@ -198,14 +198,16 @@
     }
     }
 
-@media (max-width:900px) and (min-width:413px) {
+@media (max-width:1200px) and (min-width:413px) {
     footer {
         width: 100%;
         display: flex;
         
+        
 
         .footer-nav {
             flex-direction: column;
+            padding: 15px;
 
        
             .copyright {
@@ -219,3 +221,5 @@
         
     }
 }
+
+
