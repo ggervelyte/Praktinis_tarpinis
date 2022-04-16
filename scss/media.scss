@@ -229,9 +229,10 @@
     }
     .header-bg {
         width: 100%;
-        
+        height: 1000px;
 
         .header-text {
+            margin-top: 150px;
             width: 47%;
             font-size: 1.3em;
             display: flex;
