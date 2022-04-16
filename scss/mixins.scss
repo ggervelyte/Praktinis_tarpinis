@@ -1,0 +1,103 @@
+@mixin header-footer-text-style {
+    color: white;
+    font-size: 1.9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 1050px;
+    z-index: 1;
+}
+
+@mixin header-footer-before-syle {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+@mixin form-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+@mixin input-style {
+    width: 590px;
+    height: 60px;
+    border-radius: 8px;
+    border: 2px solid $text-color;
+}
+
+@mixin input-placeholder {
+    font-size: 2em;
+    padding: 25px;
+    color: $text-color;
+    
+}
+
+@mixin button-style {
+    height: 63px;
+    border: 1px solid $btn-color;
+    background: $btn-color;
+    color: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+
+//item-1 hover style
+@mixin item-hover-style {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+//main-section 
+@mixin main-img-style {
+    flex: 1;
+    background-size: cover;
+}
+
+//ppl-section
+@mixin ppl-img-style {
+    height: 220px;
+    width: 220px;
+    background-size: cover;
+    border-radius: 50% 50%;
+    margin-bottom: 15px;
+    box-shadow: 0 5px rgba(128, 128, 128, 0.288);
+    
+}
+
+//img hover
+@mixin img-hover-before {
+    opacity: 0.8;
+    transition: 1s ease;
+}
+
+@mixin img-on-hover {
+    opacity:1;
+    transition: 1s ease;
+}
+
+//header-footer hover style 
+@mixin button-hover {
+    cursor: pointer;
+    color: black;
+    background: #30AADD;
+    border: 1px solid white;
+}
+
+@mixin input-hover {
+    background: #30a9dd1e;
+    border: 1px solid #30a9dd57;
+    font-size: 0.4em;
+    color: white;
+}
+

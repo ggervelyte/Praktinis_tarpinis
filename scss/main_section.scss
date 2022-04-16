@@ -1,0 +1,66 @@
+//main section
+.main-section {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .main-all-items{
+        display: flex;
+        
+
+        .main-card-1 {
+            height: 580px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+
+            .main-text {
+                max-width: 70%;
+
+                .main-text-header {
+                    font-size: 1.8em;
+                    padding-bottom: 20px;
+                }
+
+                .main-text-paragraph {
+                    font-size: 1.5em;
+                    line-height: 34px;
+                    color: rgba(0, 0, 0, 0.589);
+                }
+            }//main text
+        }//main card
+
+    }//main all items
+}//main section
+
+
+//main img
+.main-img {
+    background: url("../images/bg-showcase-1.jpg");
+    @include main-img-style;
+    @include img-hover-before; 
+}
+
+.main-img-2 {
+    background: url("../images/bg-showcase-2.jpg");
+    @include main-img-style;
+    @include img-hover-before;
+}
+
+.main-img-3 {
+    background: url("../images/bg-showcase-3.jpg");
+    @include main-img-style;
+    @include img-hover-before;
+}
+
+.main-img:hover,
+.main-img-2:hover,
+.main-img-3:hover {
+    @include img-on-hover
+}
+
+.main-text-header:hover {
+   color:  $btn-color;
+    
+}

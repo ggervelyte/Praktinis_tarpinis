@@ -1,0 +1,86 @@
+//nav container 
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: fixed;
+    
+    z-index: 2;
+    
+}
+
+div .nav {
+    
+    background-color: white;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    
+
+    p {
+        font-size: 1.6em;
+        margin-right: 800px;
+
+    }
+
+    button {
+        height: 48px;
+        border: 1px solid #007bff;
+        background: #007bff;
+        color: white;
+        width: 100px;
+        border-radius: 5px;
+        font-size: 1.2em;
+        position: relative;
+        box-sizing: border-box;
+        display: inline-block;
+        overflow: hidden;
+        z-index: 0;
+    }
+}
+
+.fill::before {
+    position: absolute;
+    content: "";
+    background: #007bff;
+    
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: auto auto 0px 0px;
+    width: 100%;
+    height: 50%;
+    opacity: 1;
+}
+
+.fill:hover::before {
+    width: 100%;
+    height: 0%;
+    opacity: 1;
+}
+
+.fill:hover {
+    cursor: pointer;
+    background: #30AADD;
+    color: white;
+    transition: color 0.3s ease 0s,
+    background 0s ease 0s;
+}
+
+.fill::after {
+    position: absolute;
+    content: "";
+    background: #007bff;
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: 0px auto auto 0px;
+    width: 100%;
+    height: 50%;
+    opacity: 1;
+}
+
+.fill:hover:after {
+    height: 0px;
+}

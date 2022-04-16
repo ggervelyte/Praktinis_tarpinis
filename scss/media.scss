@@ -1,0 +1,220 @@
+@media  (max-width:3000px) {
+    .container {
+        max-width: 100%;
+       overflow: hidden;
+        position: fixed;
+        display: flex;
+        
+        z-index: 9999;
+
+        nav {
+            width: 100%;
+        }
+
+        .nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+           
+            .nav-text {
+                display: flex;
+                width: 100px;
+               
+            }
+            
+            .nav-btn {
+                display: flex;
+            }
+           
+        }
+    }
+}
+
+
+
+@media  (max-width:900px) and (min-width:510px)  { 
+    .header-bg {
+        max-width: 100%;
+        height: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+
+    .header-text {
+        font-size: 1.5em;
+        display: flex;
+        padding-top: 200px;
+        width: 80%;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        .form {
+            
+        margin-right: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            
+            input {
+                width: 400px;
+                margin-bottom: 15px;
+                
+ 
+            }
+
+            input[type=button] {
+                width: 400px;
+            }
+        }
+    }    
+}
+}
+
+@media (max-width:900px) {
+    .mini-logo {
+        max-width: 100%;
+        display: flex;
+        height: auto;
+        
+        .all-items {
+            max-width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 150px ;    
+            
+            .item-1 {
+                padding-bottom: 45px;
+            }
+        }
+    }
+}
+
+@media (max-width:900px) {
+    .main-section {
+        height: auto;
+        flex-direction: column;
+
+        .main-all-items {
+            
+            width: 100%;
+            flex-direction: column-reverse;
+            height: 1000px;
+            
+            .main-card-1 {
+                width: 75%;
+                margin: auto;
+                padding: 25px;
+            }
+ 
+        }
+
+        .main-all-items:nth-of-type(2) {
+            order: column-reverse;
+            flex-direction: column;
+            
+            width: 100%;
+            
+            height: 1000px;
+            .main-card-1 {
+                width: 75%;
+                margin: auto;
+                padding: 25px;
+            }
+        }
+
+    } //main section
+  
+} //media
+
+@media (max-width:900px) {
+
+    .mini-logos-header h2 {
+        width: 50%;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .mini-logo-2 {
+        width: 100%;
+        height: 1200px;
+        align-items: flex-start;
+        align-content: flex-start; 
+        
+    }
+
+    .all-items-2 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .item-1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        padding: 30px;
+        
+    } 
+}
+
+@media (max-width:900px) and (min-width:510px) {
+    .footer-1 {
+        max-width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    
+        .footer-1-text {
+            font-size: 1.5em;
+            display: flex;
+            padding-top: 50px;
+            width: 80%;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            h2 {
+                width: 70%;
+                margin: auto;
+                font-size: 1.8em;
+            }
+    
+            .form {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+    
+                input {
+                    width: 400px;
+                    margin-bottom: 15px;
+    
+                }
+    
+                input[type=button] {
+                    width: 400px;
+                }
+            }
+        }
+    }
+    }
+
+@media (max-width:900px) {
+    footer {
+        width: 100%;
+        display: flex;
+        
+
+        .footer-nav {
+            flex-direction: column;
+
+       
+            .copyright {
+                margin-top: 50px;
+            }
+            .fa-brands {
+                padding-top: 85px;
+            }
+
+        }
+        
+    }
+}

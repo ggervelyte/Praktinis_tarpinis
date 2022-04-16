@@ -1,0 +1,48 @@
+.footer-1 {
+    background: url("../images/bg-masthead.jpg");
+    max-width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 20% 50%;
+    display: flex;
+    position: relative;
+
+    &::before {
+        @include header-footer-before-syle;
+    }
+}
+
+.footer-1-text {
+    @include header-footer-text-style;
+
+    .form {
+        @include form-style;
+
+        input {
+            @include input-style;
+        }
+
+        input::-webkit-input-placeholder {
+            @include input-placeholder;
+        }
+
+        input[type=button] {
+            @include button-style;
+        }
+        .fill-2 {
+            border: 1px solid gray;
+        }
+        
+        .fill-1:hover {
+            @include button-hover;
+        }
+        
+        .fill-2:focus {
+            @include input-hover;
+        }
+        
+        input:focus::-webkit-input-placeholder {
+            color: white;
+        }
+    }//form
+}

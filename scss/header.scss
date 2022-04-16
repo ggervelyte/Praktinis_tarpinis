@@ -1,0 +1,53 @@
+.header-bg {
+    background: url("../images/bg-masthead.jpg");
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    background-position: 10% 50%;
+    display: flex;
+    position: relative;
+
+    .header-text {
+        @include header-footer-text-style;
+
+        .form {
+            @include form-style;
+
+            input {
+                @include input-style;
+            }
+
+            input::-webkit-input-placeholder {
+                @include input-placeholder;
+            }
+
+            input[type=button] {
+                @include button-style;    
+            }
+
+            .fill-2 {
+                border: 1px solid gray;
+            }
+
+           .fill-1:hover {
+                @include button-hover;
+            }
+
+            .fill-2:focus {
+                @include input-hover;
+            }
+            input:focus::-webkit-input-placeholder {
+            color: white;
+            
+            }
+
+            
+        }//form  
+    }//header-text
+}//header-bg
+
+
+.header-bg::before {
+    @include header-footer-before-syle;
+}
+
