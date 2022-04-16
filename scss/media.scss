@@ -12,7 +12,7 @@
         }
 
         .nav {
-            width: 90%;
+            width: 100%;
             display: flex;
             justify-content: space-around;
            
@@ -32,43 +32,43 @@
 
 
 
-@media  (max-width:1200px) and (min-width:414px) { 
-    .header-bg {
-    max-width: 100%;
-    height: 950px;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
+// @media  (max-width:1200px) and (min-width:414px) { 
+//     .header-bg {
+//     max-width: 100%;
+//     height: 950px;
+//     display: flex;
+//     flex-wrap: wrap;
+//     max-width: 100%;
 
-    .header-text {
-        font-size: 1.5em;
-        display: flex;
-        padding-top: 200px;
-        width: 80%;
-        align-items: center;
-        flex-wrap: wrap;
+//     .header-text {
+//         font-size: 1.5em;
+//         display: flex;
+//         padding-top: 200px;
+//         width: 80%;
+//         align-items: center;
+//         flex-wrap: wrap;
 
-        .form {
+//         .form {
             
-        margin-right: 15px;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
+//         margin-right: 15px;
+//             display: flex;
+//             flex-wrap: wrap;
+//             align-items: center;
             
-            input {
-                width: 350px;
-                margin-bottom: 15px;
+//             input {
+//                 width: 350px;
+//                 margin-bottom: 15px;
                 
  
-            }
+//             }
 
-            input[type=button] {
-                width: 350px;
-            }
-        }
-    }    
-}
-}
+//             input[type=button] {
+//                 width: 350px;
+//             }
+//         }
+//     }    
+// }
+// }
 
 @media (max-width:1200px) and (min-width:414px) {
     .mini-logo {
@@ -222,4 +222,39 @@
     }
 }
 
+
+@media only screen and (max-width: 802px) {
+    .container {
+        width: 100%;
+    }
+    .header-bg {
+        width: 100%;
+        
+
+        .header-text {
+            width: 47%;
+            font-size: 1.3em;
+            display: flex;
+            
+            
+            .form {
+                
+                flex-wrap: column !important;
+            }
+            
+            .form input {
+            width: 350px;
+            
+                
+            }
+
+           .form input[type=button] {
+                width: 350px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    
+}
 
